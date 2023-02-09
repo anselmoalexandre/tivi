@@ -20,6 +20,7 @@ plugins {
     alias(libs.plugins.cacheFixPlugin)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.kapt)
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -41,9 +42,7 @@ dependencies {
     api(libs.androidx.room.runtime)
     api(libs.androidx.room.ktx)
     api(libs.androidx.room.paging)
-    // Need to use kapt rather than ksp currently. KSP doesn't like app.cash.paging:paging-common's
-    // typealiases
-    kapt(libs.androidx.room.compiler)
+    ksp(libs.androidx.room.compiler)
 
     api(libs.androidx.paging.runtime)
 
