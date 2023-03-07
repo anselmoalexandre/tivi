@@ -146,7 +146,7 @@ slack-lint-compose = "com.slack.lint.compose:compose-lint-checks:1.1.0"
 
 swipe = "me.saket.swipe:swipe:1.1.1"
 
-store = "org.mobilenativefoundation.store:store5:5.0.0-alpha03"
+store = "org.mobilenativefoundation.store:store5:5.0.0-alpha04"
 
 threeTenAbp = "com.jakewharton.threetenabp:threetenabp:1.4.4"
 
